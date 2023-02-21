@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    border: 0;
+    margin: 0;
+    max-width: 100%;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header{
+    position:sticky;
+    top: 0px;
+    max-height: 100px;
+    align-items: flex-start;
+    background-color: rgb(0, 13, 129);
+    margin-bottom: 100px;
+}
+
+header h1{
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+header button{
+    height: 40px;
+    display: inline-block;
+    margin-left: 16px;
+    margin-bottom: 100px;
+    background-color:rgb(0, 13, 129);
+    border-radius: 10%;
+}
+
+header button:hover{
+    background-color:rgb(0, 81, 255);
+    border: 3px solid rgb(0, 119, 255);
+
+}
+
+header a{
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    padding: 0px 10px;
+    text-decoration: none;
+}
+
+main section, article{
+    margin-top: 100px;
+}
+
+main h2{
+    display: inline;
+    margin-left:10px;
+    color: rgb(0, 47, 255);
+    border-bottom: 1px solid blue ;
+}
+
+main h3{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+main img{
+    max-width: 50%;
+    margin-left: 350px;
+    margin-bottom: 10px;
+}
+
+main p{
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
